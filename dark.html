@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интернет магазин</title>
+    <style>
+        body { background: url('tmfon.png') fixed; background-size: cover; margin: 20px; }
+        h1 { text-align: center; font-size: 40px; color: white; margin-bottom: 40px; margin-top: 20px; padding-top: 60px;}
+        .marq1 { color: red; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin: 0px; font-size: 50px; position: absolute; right: 5px; width: 52%;}
+        .marq2 { color: red; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin: 0px; font-size: 50px; position: absolute; left: 5px; width: 47%;}
+        .btns { text-align: center; margin: 15px; }
+        .btn { text-align: center; margin: 20px; background: blue; color: white; border: 2px solid #3385ff; border-radius: 20px; padding: 20px; text-decoration: none; }
+        .cars { display: none; text-align: center; margin-top: 0px; margin-bottom: 10px; }
+        #ot:target, #in:target { display: block; }
+        .car { display: inline-block; margin: 15px; font-size: 30px;}
+        .car img { border-radius: 20px; border: 4px solid red; border-radius: 15px; display: block; width: 600px; height: 350px; margin: 15px}
+        .car a { text-decoration: none; color: white; font-weight: bold; }
+        .osebe { position: fixed; color: white; bottom: 20px; left: 100px; margin: 0px; }
+        .osebe img { width: 400px; height: 300px; border-radius: 30px; border: 4px solid red; display: block; margin-bottom: 10px; margin-left: -60px; }
+        .tema { position: fixed; bottom: 20px; right: 20px; background: #302f2f; padding: 20px; border-radius: 5px; color: white; }
+        .tema a { text-decoration: none; color: white; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <marquee class="marq1" scrollamount="70" direction="left" behavior="slide"><i>пожаловать!</i></marquee>
+    <marquee class="marq2" scrollamount="63" direction="right" behavior="slide"><i>Добро</i></marquee>
+    <h1>Интернет магазин Автомобилей</h1>
+    <div class="btns">
+        <a href="#ot" class="btn">Отечественные</a>
+        <a href="#in" class="btn">Иномарки</a>
+    </div>
+    <div id="ot" class="cars">
+        <div class="car"><a href="tmcar1.html"><img src="ot1.png"></a><br><a href="tmcar1.html">Лада Приора</a></div>
+        <div class="car"><a href="tmcar2.html"><img src="ot2.png"></a><br><a href="tmcar2.html">Газель Некст</a></div>
+        <div class="car"><a href="tmcar3.html"><img src="ot3.png"></a><br><a href="tmcar3.html">УАЗ Патриот</a></div>
+        <div class="car"><a href="tmcar4.html"><img src="ot4.png"></a><br><a href="tmcar4.html">Лада Веста</a></div>
+        <div class="car"><a href="tmcar5.html"><img src="ot5.png"></a><br><a href="tmcar5.html">Lada Niva Travel</a></div>
+    </div>
+
+    <div id="in" class="cars">
+        <div class="car"><a href="tmcar6.html"><img src="in1.png"></a><br><a href="tmcar6.html">Toyota Camry</a></div>
+        <div class="car"><a href="tmcar7.html"><img src="in2.png"></a><br><a href="tmcar7.html">BMW M5E60 rest</a></div>
+        <div class="car"><a href="tmcar8.html"><img src="in3.png"></a><br><a href="tmcar8.html">Mercedes-AMG GT 63 S</a></div>
+        <div class="car"><a href="tmcar9.html"><img src="in4.png"></a><br><a href="tmcar9.html">Audi RS8 Sportback</a></div>
+        <div class="car"><a href="tmcar10.html"><img src="in5.png"></a><br><a href="tmcar10.html">Lamborghini Veneno</a></div>
+    </div>
+    <div class="osebe">
+        <img src="ya.png">
+        Автор сайта - Чугунов Георгий ИУК2-13Б!
+    </div>
+    <div class="tema">
+        Выбор темы сайта<br>
+        <a href="index.html">Светлая</a> | <a href="dark.html">Темная</a>
+    </div>
+</body>
+</html>
